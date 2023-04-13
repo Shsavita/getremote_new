@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 15rem 0rem;
+    position: relative;
+    margin-top: 3rem;
+}
+.f-content {
+    position:  relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+    gap: 2rem;
+    color: darkblue;
+    background-color: antiquewhite;
+}
+ .f-content .button {
+    border-radius: 0%;
+     
+    
+  }
+  @media screen and (max-width: 480px){
+    .f-content{
+      transform: scale(1);
+    }
+  }

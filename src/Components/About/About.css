@@ -1,0 +1,45 @@
+.services {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 10rem;
+    margin-bottom: 8rem;
+    margin-top: -6rem;
+    margin-bottom: 13rem;
+
+    padding-top: 5rem;
+    background-color: burlywood;
+  }
+  
+  .awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     
+  }
+  
+  .awesome > :nth-child(1) {
+    color: darkblue;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(2) {
+    color:  lightblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(3) {
+    color: darkblue;
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  @media screen and (max-width: 480px) {
+    .services {
+      margin-top: 0;
+      flex-direction: column;
+      gap: 5rem;
+      height: 66rem;
+      padding: 0;
+    }
+}
+  
+  
